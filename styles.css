@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 41, 170);
+}
+#buttons{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+}
+.btn{
+    font-size: 16px;
+    padding: 15px 20px;
+    color: white; 
+    background-color: purple;
+    border-radius: 16px;
+    border: none;
+}
+.stop{
+    font-size: 16px;
+    padding: 15px 20px;
+    color: white; 
+    background-color: purple;
+    border-radius: 16px;
+    border: none;
+}
+
+.btn:hover{
+    border: 2px solid white;
+    background-color: rgb(170, 41, 170);
+} 
+.stop:hover{
+    border: 2px solid white;
+    background-color: rgb(170, 41, 170);
+} 
